@@ -3,5 +3,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "trailing-spaces.trimOnSave": true
+  "files.trimTrailingWhitespace": true,
+  // "trailing-spaces.trimOnSave": true
 }
