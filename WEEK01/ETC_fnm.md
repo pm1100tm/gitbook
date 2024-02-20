@@ -1,6 +1,6 @@
 # FNM
 
-![FNM](/asset/fnm.png)
+![FNM](/asset/img-fnm.png)
 
 - Fast Node Manager
 - Node.js 버전 관리 도구 중의 하나이다.
