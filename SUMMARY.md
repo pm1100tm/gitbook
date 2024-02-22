@@ -31,7 +31,7 @@
 
 - [WEEK4](WEEK04/README.md)
 
-  - [1. Express](/WEEK04/1.%20Express.md)
+  - [1. Express](/WEEK04/express.md)
   - [2. Fetch API&CORS](/WEEK04/2.%20Fetch%20API&CORS.md)
   - [3. Unicode&ASCII](/WEEK04/3.%20Unicode&ASCII.md)
   - [4. React Hook](/WEEK04/4.%20React%20Hook.md)
