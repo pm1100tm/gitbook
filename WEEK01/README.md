@@ -4,10 +4,10 @@
 Parcel(웹 애플리케이션의 번들러), 그리고 ESLint 를 활용하여 누구나 따라만 해도 동일한
 프론트엔드 개발 환경을 설정하는 것을 목표로 한다.
 
-* * *
+---
 
-- [X] 개발 환경
-- [X] TypeScript
+- [x] 개발 환경
+- [x] TypeScript
 - [ ] React
 - [ ] Testing Library
 - [ ] Parcel & ESLint

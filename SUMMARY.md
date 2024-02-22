@@ -35,3 +35,11 @@
   - [2. Fetch API&CORS](/WEEK04/2.%20Fetch%20API&CORS.md)
   - [3. Unicode&ASCII](/WEEK04/3.%20Unicode&ASCII.md)
   - [4. React Hook](/WEEK04/4.%20React%20Hook.md)
+
+- [ETC](snippet/README.md)
+  - [정규식](/snippet/정규식.md)
+  - [진수전환](/snippet/진수전환.md)
+  - [특정 문자 갯수세기](/snippet/특정%20문자%20갯수세기.md)
+  - [소인수분해](/snippet/소인수분해.md)
+  <!-- - [문자열을 뒤집는 방법](/snippet/)
+  - [BigInt활용](/snippet/) -->
