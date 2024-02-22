@@ -1,6 +1,6 @@
 # 4주차 - React Hook
 
-React Hoo 에 대해서 학습한다
+React Hook 에 대해서 학습한다
 
 ---
 
