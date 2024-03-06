@@ -39,6 +39,13 @@
 - [WEEK5](WEEK05/README.md)
 
   - [1. Test에 대하여](/WEEK05/1.%20Test에%20대하여.md)
+  - [2. Test 도구 설정과 사용](/WEEK05/2.%20Test%20도구%20설정과%20사용.md)
+
+- [WEEK6](WEEK06/README.md)
+
+  - [1. ExternalStore](/WEEK06/1.%20ExternalStore.md)
+  - [2. TSyringe](/WEEK06/2.%20TSyringe.md)
+  - [3. useSyncExternalStore](/WEEK06/3.%20useSyncExternalStore.md)
 
 - [ETC](snippet/README.md)
   - [정규식](/snippet/정규식.md)
