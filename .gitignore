@@ -56,4 +56,9 @@ sketch
 # End of https://www.toptal.com/developers/gitignore/api/react,macos
 
 # User Defined
-try.js
+try*.js
+try*.ts
+package*.json
+jest.config.js
+tsconfig.json
+src
