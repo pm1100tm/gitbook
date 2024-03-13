@@ -40,6 +40,7 @@
 
   - [1. Test에 대하여](/WEEK05/1.%20Test에%20대하여.md)
   - [2. Test 도구 설정과 사용](/WEEK05/2.%20Test%20도구%20설정과%20사용.md)
+  - [3. Jest](/WEEK05/3.%20Jest.md)
 
 - [WEEK6](WEEK06/README.md)
 
