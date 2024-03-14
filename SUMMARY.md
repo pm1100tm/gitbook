@@ -48,6 +48,13 @@
   - [2. TSyringe](/WEEK06/2.%20TSyringe.md)
   - [3. useSyncExternalStore](/WEEK06/3.%20useSyncExternalStore.md)
 
+- [WEEK7](WEEK07/README.md)
+
+  - [1. React Router 사용해보기](/WEEK07/1.%20React%20Router%20사용해보기.md)
+  - [2. React Router 에 대한 테스트 코드 만들기](/WEEK07/2.%20React%20Router%20에%20대한%20테스트%20코드%20만들기.md)
+  - [3. Navigate](/WEEK07/3.%20Navigate.md)
+  - [4. ErrorPage 로 Routing 하기](/WEEK07/4.%20ErrorPage%20로%20Routing%20하기.md)
+
 - [ETC](snippet/README.md)
   - [정규식](/snippet/정규식.md)
   - [진수전환](/snippet/진수전환.md)
