@@ -1,0 +1,26 @@
+# HTML block&inline level
+
+## HTML Tag 의 범주 - block 과 inline
+
+## Block 레벨 태그
+
+- 항상 새 줄에서 시작되며, 브라우저는 요소의 앞뒤에 자동으로 여백을 추가한다.
+- 항상 사용 가능한 전체 너비를 차지한다.
+
+![block level tags](/asset/block.png)
+
+## Inline 레벨 태그
+
+- 인라인 요소는 새 줄에서 시작되지 않는다.
+- 인라인 요소는 기본적으로 필요한 만큼의 너비만 차지하여, 내용에 맞게 자동으로 크기가 정해진다.
+
+텍스트와 같은 내용을 표시하는데 사용이 되기 때문에, 다른 요소들과 같은 줄에 배치된다.
+
+즉, **자신의 크기를 지정할 수 없다.**
+
+width, height 를 지정해도 아무런 반응이 없다.
+
+이러한 요소들의 크기를 지정하려면, 요소의 display 속성을 inline-block 또는 block 으로 변경해야
+한다.
+
+![inline level tags](/asset/inline.png)

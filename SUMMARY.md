@@ -55,7 +55,16 @@
   - [3. Navigate](/WEEK07/3.%20Navigate.md)
   - [4. ErrorPage 로 Routing 하기](/WEEK07/4.%20ErrorPage%20로%20Routing%20하기.md)
 
-- [ETC](snippet/README.md)
+- [WEEK8](WEEK08/README.md)
+
+  - [Semantic Tags](/WEEK08/Semantic%20Tags.md)
+  - [HTML block&inline level](/WEEK08/HTML%20block&inline%20level.md)
+  - [Boxbox Sizing](/WEEK08/BoxSizing.md)
+  - [Flex](/WEEK08/Flex.md)
+  - [Grid](/WEEK08/Grid.md)
+  - [Tips](/WEEK08/Tips.md)
+
+- [SNIPPET](snippet/README.md)
   - [정규식](/snippet/정규식.md)
   - [진수전환](/snippet/진수전환.md)
   - [특정 문자 갯수세기](/snippet/특정%20문자%20갯수세기.md)
