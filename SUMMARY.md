@@ -69,9 +69,20 @@
   - [Tips](/WEEK08/Tips.md)
 
 - [SNIPPET](snippet/README.md)
+
   - [정규식](/snippet/정규식.md)
   - [진수전환](/snippet/진수전환.md)
   - [특정 문자 갯수세기](/snippet/특정%20문자%20갯수세기.md)
   - [소인수분해](/snippet/소인수분해.md)
   <!-- - [문자열을 뒤집는 방법](/snippet/)
   - [BigInt활용](/snippet/) -->
+
+- [ETC](ETC/README.md)
+
+  - [JetBrain Licence](/ETC/jetbrain-license.md)
+  - [Pretendard Font](/ETC/pretendard-font.md)
+
+- [GIT](GIT/README.md)
+  - [Git Commit Message](/GIT/git-commit-message.md)
+  - [How to change branch name](/GIT/git-rename-branch.md)
+  - [How to change git origin](/GIT/)
