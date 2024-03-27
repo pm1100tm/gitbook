@@ -75,7 +75,7 @@ em 은 부모요소에 영향을 받아 유동적인 값을 갖는다.
 }
 ```
 
-![em](/asset/em.png)
+![em](/asset/css/em.png)
 
 - 첫번 째 div: 1em 이기 때문에, 16px
 
@@ -87,7 +87,7 @@ em 은 부모요소에 영향을 받아 유동적인 값을 갖는다.
 
 rem 은 부모요소에 영향을 받지 않고 고정 값을 갖는다.
 
-![em](/asset/rem.png)
+![em](/asset/css/rem.png)
 
 - 첫번 째 div: 부모요소에 상관없이 1rem(16px)
 
