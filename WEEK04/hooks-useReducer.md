@@ -1,6 +1,6 @@
-# hooks - hooks-useReducer
+# hooks - useReducer
 
-## ❓What is **hooks-useReducer**
+## ❓What is **useReducer**
 
 - 상태 값을 관리하는 useState와는 다른 hook
 - 상태 업데이트 로직을 컴포넌트와 분리 가능

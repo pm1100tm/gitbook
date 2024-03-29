@@ -4,5 +4,4 @@
     "source.fixAll.eslint": "explicit"
   },
   "files.trimTrailingWhitespace": true
-  // "trailing-spaces.trimOnSave": true
 }
