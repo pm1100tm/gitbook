@@ -259,3 +259,7 @@ export default function Hello() {
   );
 }
 ```
+
+### Ref
+
+- [React Hooks에 취한다 - useCallback 짱 쉬운 강의 | 리액트 훅스 시리즈](https://www.youtube.com/watch?v=XfUF9qLa3mU&list=PLZ5oZ2KmQEYjwhSxjB_74PoU6pmFzgVMO&index=7)
