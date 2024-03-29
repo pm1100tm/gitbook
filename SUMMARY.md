@@ -28,6 +28,7 @@
   - [State 끌어올리기] - ING
   - [97. 프로토타입](WEEK03/97.%20프로토타입.md)
   - [98. 클로져](WEEK03/98.%20클로져.md)
+  - [99. ETC](WEEK03/99.%20ETC.md)
 
 - [WEEK4](WEEK04/README.md)
 
