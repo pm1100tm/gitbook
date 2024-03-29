@@ -10,3 +10,4 @@ React Hook 에 대해서 학습한다
 - [x] 4. React Hook
 - [x] hooks-useMemo
 - [x] hooks-useCallback
+- [x] hooks-useReducer
