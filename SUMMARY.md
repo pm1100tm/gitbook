@@ -74,7 +74,8 @@
 
 - [WEEK9](WEEK09/README.md)
 
-  - [1. 통합개발환경 세팅](/WEEK09/1.%20통합개발환경%20세팅.md)
+  - [1. 통합개발환경 세팅](/WEEK09/통합개발환경%20세팅.md)
+  - [2. ErrorBoundary](/WEEK09/ErrorBoundary.md)
 
 - [SNIPPET](snippet/README.md)
 
