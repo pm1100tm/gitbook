@@ -13,4 +13,5 @@
 - [x] 7. StyledComponents
 - [x] 8. GlobalStyle&Theme
 - [x] 9. VenderPrefix.md
+- [x] 10. SASS
 - [x] Tips

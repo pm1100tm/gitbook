@@ -71,6 +71,7 @@
   - [7. StyledComponents](/WEEK08/7.%20StyledComponents.md)
   - [8. GlobalStyle&Theme](/WEEK08/8.%20GlobalStyle&Theme.md)
   - [9. VenderPrifix](/WEEK08/9.%20VenderPrefix.md)
+  - [10. SCSS](/WEEK08/10.%20SCSS.md)
   - [Tips](/WEEK08/Tips.md)
 
 - [WEEK9](WEEK09/README.md)
