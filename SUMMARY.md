@@ -78,11 +78,10 @@
 - [WEEK9](WEEK09/README.md)
 
   - [1. 통합개발환경 세팅](/WEEK09/통합개발환경%20세팅.md)
-  - [2. ErrorBoundary](/WEEK09/ErrorBoundary.md)
 
 - [WEEK11](WEEK11/README.md)
 
-  - [1. 우편번호검색](</WEEK11/우편번호검색(주소검색).md>)
+  - [1. 우편번호검색](</WEEK11/우편번호검색(주소검색).md)
   - [2. 포트원](/WEEK11/포트원.md)
 
 - [SNIPPET](snippet/README.md)
