@@ -82,8 +82,8 @@
 
 - [WEEK11](WEEK11/README.md)
 
-  - [1. 주소 검색](/WEEK11/주소%20검색.md)
-  - [2. PortOne](/WEEK11/PortOne.md)
+  - [1. 우편번호검색](</WEEK11/우편번호검색(주소검색).md>)
+  - [2. 포트원](/WEEK11/포트원.md)
 
 - [SNIPPET](snippet/README.md)
 
