@@ -93,12 +93,12 @@
   <!-- - [문자열을 뒤집는 방법](/snippet/)
   - [BigInt활용](/snippet/) -->
 
-- [ETC](ETC/README.md)
+- [ETC](/etc/README.md)
 
-  - [JetBrain Licence](/ETC/jetbrain-license.md)
-  - [Pretendard Font](/ETC/pretendard-font.md)
+  - [JetBrain Licence](/etc/jetbrain_license.md)
+  - [Pretendard Font](/etc/pretendard-font.md)
 
-- [GIT](GIT/README.md)
-  - [Git Commit Message](/GIT/git-commit-message.md)
-  - [How to change branch name](/GIT/git-rename-branch.md)
-  - [How to change git origin](/GIT/)
+- [GIT](/git/README.md)
+  - [Git Commit Message](/git/git-commit-message.md)
+  - [How to change branch name](/git/git-rename-branch.md)
+  - [How to change git origin](/git/)
