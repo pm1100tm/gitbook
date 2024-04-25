@@ -79,7 +79,7 @@ degit으로 설치
 
 ````shell
 degit git@gitub.com:nestjs/typescript-starter.git [project-name]
-```h
+```
 
 이렇게 설치한 후에 프로젝트에 들어가서 git log를 보면 history 가 깨끗한 것을 볼 수 있다.
 ````
