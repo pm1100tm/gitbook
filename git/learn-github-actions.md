@@ -70,3 +70,104 @@
 
 - [building-and-testing-nodejs](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs)
 - [Learn GitHub Actions](https://docs.github.com/en/actions/learn-github-actions)
+
+## GitHub Action YAML Syntax
+
+- name
+
+  - (optional) 워크플로명
+  - ex: name: leanring-github-action
+
+- run-name
+
+  - (optional) 워크플로에서 생성된 워크플로 실행 이름
+  - ex: run-name: ${{ github.actor }} is leanring-github-action
+  - ex: run-name: Deploy to ${{ inputs.deploy_target }} by @${{ github.actor }}
+
+- on
+  - 워크플로를 실행할 이벤트 정의
+  - ex: on: push
+  - ex: on: [push, fork]
+
+```yml
+# push 이벤트에 대해 특정 브랜치만 트리거 되도록 설정
+on:
+  push:
+    branches:
+      - main
+      - 'releases/**'
+
+# pull_request 이벤트에 대해 특정 브랜치만 트리거 되도록 설정
+on:
+  pull_request:
+    branches:
+      - main
+      - 'mona/octocat'
+      - 'releases/**'
+
+# pull_request 이벤트에 대해 특정 브랜치를 무시하도록 설정
+on:
+  pull_request:
+    branches-ignore:
+      - 'mona/octocat'
+      - 'releases/**-alpha'
+
+# 그 외의 다양한 on
+on:
+  push:
+    branches:
+      - 'releases/**'
+      - '!releases/**-alpha'
+
+on:
+  push:
+    paths-ignore:
+      - 'docs/**'
+
+on:
+  schedule:
+    - cron:  '30 5,17 * * *'
+
+on:
+  schedule:
+    - cron: '30 5 * * 1,3'
+    - cron: '30 5 * * 2,4'
+
+jobs:
+  test_schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Not on Monday or Wednesday
+        if: github.event.schedule != '30 5 * * 1,3'
+        run: echo "This step will be skipped on Monday and Wednesday"
+      - name: Every time
+        run: echo "This step will always run"
+```
+
+- jobs: 워크플로에서 실행되는 모든 작업을 함께 그룹화 한다.
+
+```yml
+# 워크플로에서 실행되는 모든 작업 그룹화
+jobs:
+  # check-bats-version이라는 작업 정의. 하위 키는 작업의 속성 정의
+  check-bats-version:
+    # 최신 버전의 Ubuntu Linux 런처에서 실행되도록 작업 구성.
+    # 즉, GitHub에서 호스팅하는 새 가상 머신에서 작업 실행됨.
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install -g bats
+      - run: bats -v
+```
+
+### Note
+
+- 1,000개 이상의 커밋을 푸시하거나 시간 초과로 인해 GitHub가 Diff를 생성하지 않는 경우,
+  워크플로는 항상 실행.
+- 필터는 변경된 파일을 평가하고 path ignore 또는 list에 대해 실행하여 워크플로 실행 여부 결정.
+  변경된 파일이 잆다면 워크플로가 실행되지 않음.
+- Diff는 300개 파일로 제한됨.
